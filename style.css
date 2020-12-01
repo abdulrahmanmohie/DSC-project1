@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 body{
     overflow: auto;
     margin: 0 auto;
     height: 100%;
+    font-family: 'Castoro', serif;
 }
 /*start first section*/
 .first-section{
@@ -63,8 +65,13 @@ section .left h2{
 .second-section .container .designs img{
     margin: 15px 0;
 }
+.second-section .container .third-design img{
+    height: 200px;
+    width: max-content;
+}
 .second-section .container .designs .last-span{
     margin-bottom: 10px;
+    font-family: sans-serif;
 }
 .second-section .container .designs .last-span span img{
     width: 30px;
