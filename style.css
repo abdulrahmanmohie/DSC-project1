@@ -1,0 +1,79 @@
+body{
+    overflow: auto;
+    margin: 0 auto;
+    height: 100%;
+}
+.first-section{
+    background-color: #D7DADF;
+    width: 100%;
+    margin: 100px 0;
+    overflow: hidden;
+}
+section .container{
+}
+section .container .right{
+}
+section .container .right img{
+    width: 20%;
+    float: right;
+    height: 100%;
+    margin-right: 25%;
+}
+section .container .left{
+    float: left;
+    width: 32%;
+    margin: 50px 10px 50px 17%;
+    line-height: 1.5em;
+}
+section .container .left p{
+    font-style: italic;
+    color: #7A777E;
+    font-size: 0.75em;
+}
+section .left h2{
+    color: #852d2d;
+    font-size: 1em;
+    font-weight: bold;
+}
+/*second section start*/
+.second-section{
+}
+.second-section .container h1{
+    text-align: center;
+}
+.second-section .container .designs {
+    width: 20%;
+    background-color: #D7DADF;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    margin: 50px 20px;
+}
+.second-section .container .first-design{
+    float: left;
+}
+.second-section .container .second-design{
+    float: left;
+}
+.second-section .container .third-design{
+    float: right;
+}
+.second-section .container .designs p{
+    margin: 20px auto;
+    text-align: left;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+.second-section .container .designs .last-span span img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.second-section .container .designs .last-span i,
+.second-section .container .designs .last-span span{
+    color: #7A777E;
+    font-size: 0.6em;
+}
+.second-section .container .designs .last-span span{
+    margin-right: 35px;
+}
