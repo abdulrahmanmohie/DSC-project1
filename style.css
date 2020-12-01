@@ -9,14 +9,10 @@ body{
     margin: 100px 0;
     overflow: hidden;
 }
-section .container{
-}
-section .container .right{
-}
 section .container .right img{
     width: 20%;
     float: right;
-    height: 100%;
+    height: 17em;
     margin-right: 25%;
 }
 section .container .left{
@@ -37,9 +33,15 @@ section .left h2{
 }
 /*second section start*/
 .second-section{
+    overflow: hidden;
 }
 .second-section .container h1{
     text-align: center;
+}
+.second-section .container .design-container{
+    width: 100%;
+    overflow: hidden;
+    padding-left:190px;
 }
 .second-section .container .designs {
     width: 20%;
@@ -49,25 +51,26 @@ section .left h2{
     float: left;
     margin: 50px 20px;
 }
-.second-section .container .first-design{
-    float: left;
-}
-.second-section .container .second-design{
-    float: left;
-}
-.second-section .container .third-design{
-    float: right;
-}
 .second-section .container .designs p{
     margin: 20px auto;
     text-align: left;
     line-height: 1.5em;
     font-weight: bold;
 }
+.second-section .container .designs img{
+    margin: 15px 0;
+}
+.second-section .container .designs .last-span{
+    margin-bottom: 10px;
+}
 .second-section .container .designs .last-span span img{
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    margin: 0 5px 0 0;
+}
+.second-section .container .designs .last-span span span{
+    font-size: 1em;
 }
 .second-section .container .designs .last-span i,
 .second-section .container .designs .last-span span{
@@ -75,5 +78,5 @@ section .left h2{
     font-size: 0.6em;
 }
 .second-section .container .designs .last-span span{
-    margin-right: 35px;
+    margin-right: 25px;
 }
