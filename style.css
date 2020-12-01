@@ -3,6 +3,7 @@ body{
     margin: 0 auto;
     height: 100%;
 }
+/*start first section*/
 .first-section{
     background-color: #D7DADF;
     width: 100%;
@@ -31,6 +32,8 @@ section .left h2{
     font-size: 1em;
     font-weight: bold;
 }
+/*end first section*/
+
 /*second section start*/
 .second-section{
     overflow: hidden;
@@ -80,3 +83,4 @@ section .left h2{
 .second-section .container .designs .last-span span{
     margin-right: 25px;
 }
+/*end first section*/
