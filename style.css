@@ -42,6 +42,7 @@ section .left h2{
 }
 .second-section .container h1{
     text-align: center;
+    font-size: 2em;
 }
 .second-section .container .design-container{
     width: 100%;
