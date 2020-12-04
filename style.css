@@ -1,25 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
 body{
     overflow: auto;
     margin: 0 auto;
-    height: 100%;
     font-family: 'Castoro', serif;
 }
+
+
 /*start first section*/
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .first-section{
     background-color: #D7DADF;
     width: 100%;
     margin: 100px 0;
     overflow: hidden;
 }
-section .container .right img{
+section .container .right {
     width: 20%;
-    float: right;
-    height: 17em;
-    margin-right: 25%;
+    margin-right: 15%;
+}
+section .container .right img{
+    width: 100%;
+    height: 100%;
 }
 section .container .left{
-    float: left;
     width: 32%;
     margin: 50px 10px 50px 17%;
     line-height: 1.5em;
@@ -36,26 +44,25 @@ section .left h2{
 }
 /*end first section*/
 
+
 /*second section start*/
 .second-section{
     overflow: hidden;
 }
-.second-section .container h1{
+.second-section h1{
     text-align: center;
     font-size: 2em;
 }
-.second-section .container .design-container{
-    width: 100%;
-    overflow: hidden;
-    padding-left:190px;
+.second-section .container{
 }
 .second-section .container .designs {
     width: 20%;
     background-color: #D7DADF;
     text-align: center;
     padding: 20px;
-    float: left;
     margin: 50px 20px;
+    display: flex;
+    flex-direction: column;
 }
 .second-section .container .designs p{
     margin: 20px auto;
@@ -68,11 +75,24 @@ section .left h2{
 }
 .second-section .container .third-design img{
     height: 200px;
-    width: max-content;
 }
 .second-section .container .designs .last-span{
     margin-bottom: 10px;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.second-section .container .designs .last-span span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.second-section .container .designs .last-span div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
 }
 .second-section .container .designs .last-span span img{
     width: 30px;
@@ -82,13 +102,212 @@ section .left h2{
 }
 .second-section .container .designs .last-span span span{
     font-size: 1em;
+    margin-top: 5px;
 }
 .second-section .container .designs .last-span i,
 .second-section .container .designs .last-span span{
     color: #7A777E;
     font-size: 0.6em;
-}
-.second-section .container .designs .last-span span{
-    margin-right: 25px;
+    margin: 5px;;
 }
 /*end first section*/
+/*start page responsive*/
+@media (max-width: 768px){
+    .container, body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .first-section{
+        margin: 25px 0;
+    }
+    section .container .left{
+        margin: 25px 0;
+    }
+    section .container .left p{
+        font-size:0.7em;
+        line-height: 1.5em;
+    }
+    section .container .left h2{
+        font-size: 0.75em;
+    }
+    section .container .right{
+        width: 30%;
+        margin-right: 0;
+    }
+    .second-section h1{
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+    .second-section .container .designs{
+        width: 45%;
+        margin: 25px;
+    }
+    .second-section .container .designs p{
+        text-align: center;
+    }
+    body{
+        margin: 0;
+    }
+}
+@media (min-width:768px) and (max-width: 992px){
+    .container, body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .first-section{
+        margin: 25px 0;
+    }
+    section .container .left{
+        margin: 25px 0;
+    }
+    section .container .left p{
+        font-size:0.7em;
+        line-height: 1.5em;
+    }
+    section .container .left h2{
+        font-size: 0.75em;
+    }
+    section .container .right{
+        width: 30%;
+        margin-right: 0;
+        margin-left: 5%;
+        height: 350px;
+    }
+    .second-section h1{
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+    .second-section .container .designs{
+        width: 45%;
+        margin: 25px;
+    }
+    .second-section .container .designs p{
+        text-align: center;
+    }
+    body{
+        margin: 0;
+    }
+}
+@media(min-width:993px){
+    body{
+        overflow: auto;
+        margin: 0 auto;
+        font-family: 'Castoro', serif;
+    }
+    
+    
+    /*start first section*/
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .first-section{
+        background-color: #D7DADF;
+        width: 100%;
+        margin: 100px 0;
+        overflow: hidden;
+    }
+    section .container .right {
+        width: 20%;
+        margin-right: 15%;
+    }
+    section .container .right img{
+        width: 100%;
+        height: 100%;
+    }
+    section .container .left{
+        width: 32%;
+        margin: 50px 10px 50px 17%;
+        line-height: 1.5em;
+    }
+    section .container .left p{
+        font-style: italic;
+        color: #7A777E;
+        font-size: 0.75em;
+    }
+    section .left h2{
+        color: #852d2d;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    /*end first section*/
+    
+    
+    /*second section start*/
+    .second-section{
+        overflow: hidden;
+    }
+    .second-section h1{
+        text-align: center;
+        font-size: 2em;
+    }
+    .second-section .container{
+    }
+    .second-section .container .designs {
+        width: 20%;
+        background-color: #D7DADF;
+        text-align: center;
+        padding: 20px;
+        margin: 50px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .second-section .container .designs p{
+        margin: 20px auto;
+        text-align: left;
+        line-height: 1.5em;
+        font-weight: bold;
+    }
+    .second-section .container .designs img{
+        margin: 15px 0;
+    }
+    .second-section .container .third-design img{
+        height: 200px;
+    }
+    .second-section .container .designs .last-span{
+        margin-bottom: 10px;
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .second-section .container .designs .last-span span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .second-section .container .designs .last-span div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+    .second-section .container .designs .last-span span img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 0 5px 0 0;
+    }
+    .second-section .container .designs .last-span span span{
+        font-size: 1em;
+        margin-top: 5px;
+    }
+    .second-section .container .designs .last-span i,
+    .second-section .container .designs .last-span span{
+        color: #7A777E;
+        font-size: 0.6em;
+        margin: 5px;;
+    }
+    /*end first section*/
+    
+}
+/*end page responsive*/
