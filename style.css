@@ -126,6 +126,7 @@ section .left h2{
     }
     section .container .left{
         margin: 25px 0;
+        width: 70%;
     }
     section .container .left p{
         font-size:0.7em;
@@ -167,6 +168,7 @@ section .left h2{
     }
     section .container .left{
         margin: 25px 0;
+        width: 40%;
     }
     section .container .left p{
         font-size:0.7em;
